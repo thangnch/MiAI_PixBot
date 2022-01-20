@@ -1,0 +1,18 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_pix",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"action_pix\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent restart",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"action_pix\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "predicting default action with intent session_start"
+    ]
+  }
+}
